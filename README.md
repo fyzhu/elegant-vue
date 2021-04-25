@@ -16,30 +16,23 @@
 
 ### 组件计划
 
-- [x] switch组件
 - [x] button组件
+- [x] icon组件
+- [x] switch组件
 - [x] table组件
 - [x] modal组件
-- [ ] table组件
+- [ ] menu组件
+- [ ] tree组件
+- [ ] message组件
 - [ ] scroll组件
 - [ ] Datepicker组件
 - [ ] form组件
 
-### 代码风格计划
 
-- [x] 后面的组件准备切换成tsx的风格
+### 个人博客
 
-### 学习笔记
+[博客地址](https://www.zhuyunfeng.com)
 
-[Vue轮子笔记](https://www.yuque.com/yixiu-wrtcu/qyx5op/og5y2r) 、
-[数据响应式]()、
-[组件化]()、
-[编译]()、
-[事件、双向绑定、插槽]()、
-[缓存组件]()、
-[动画]()、
-[Vue-Router]()、
-[Vuex]()
 
 ### 项目展示
 ![首页](http://wangfan.store/static/doc3.png)
