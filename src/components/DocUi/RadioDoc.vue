@@ -7,8 +7,8 @@
 </template>
 
 <script lang="ts">
-import RadioDemo from '../../dmoe-code/DemoRadio/RadioDemo.vue';
-import RadioDemo2 from '../../dmoe-code/DemoRadio/RadioDemo2.vue';
+import RadioDemo from '../../demo/DemoRadio/RadioDemo.vue';
+import RadioDemo2 from '../../demo/DemoRadio/RadioDemo2.vue';
 
 
 import CodePer from '../CodePer.vue';

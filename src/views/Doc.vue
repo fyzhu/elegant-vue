@@ -8,17 +8,26 @@
           <li>
             <router-link to="/doc/intro">介绍</router-link>
           </li>
+          <li>
+            <router-link to="/doc/install">安装</router-link>
+          </li>
+          <li>
+            <router-link to="/doc/get-started">快速上手</router-link>
+          </li>
         </ol>
         <h2>组件列表</h2>
         <ol>
+          <li>
+            <router-link to="/doc/button">Button 按钮</router-link>
+          </li>
+          <li>
+            <router-link to="/doc/icon">Icon 图标</router-link>
+          </li>
           <li>
             <router-link to="/doc/switch">Switch 开关</router-link>
           </li>
           <li>
             <router-link to="/doc/radio">Radio 单选框</router-link>
-          </li>
-          <li>
-            <router-link to="/doc/button">Button 按钮</router-link>
           </li>
           <li>
             <router-link to="/doc/input">Input 输入框</router-link>
@@ -30,28 +39,7 @@
             <router-link to="/doc/tabs">Tabs 标签页</router-link>
           </li>
           <li>
-            <router-link to="/doc/unfinished">未完待续...</router-link>
-          </li>
-        </ol>
-        <h2>其他项目</h2>
-        <ol>
-          <li>
-            <router-link to="/doc/blog">博客（技术文章和学习笔记）</router-link>
-          </li>
-          <li>
-            <router-link to="/doc/bookkeeping-vue">清栀记账-Vue版</router-link>
-          </li>
-          <li>
-            <router-link to="/doc/bookkeeping-react">清栀记账-React版</router-link>
-          </li>
-          <li>
-            <router-link to="/doc/naruto">手绘漩涡鸣人</router-link>
-          </li>
-          <li>
-            <router-link to="/doc/virus-map">世界疫情图</router-link>
-          </li>
-          <li>
-            <router-link to="/doc/more-project">更多项目</router-link>
+            <router-link to="/doc/unfinished">持续更新中...</router-link>
           </li>
         </ol>
       </aside>

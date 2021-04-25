@@ -8,9 +8,9 @@
 </template>
 
 <script lang="ts">
-import InputDemo1 from '../../dmoe-code/DemoInput/InputDemo1.vue';
-import InputDemo2 from '../../dmoe-code/DemoInput/InputDemo2.vue';
-import InputDemo3 from '../../dmoe-code/DemoInput/InputDemo3.vue';
+import InputDemo1 from '../../demo/DemoInput/InputDemo1.vue';
+import InputDemo2 from '../../demo/DemoInput/InputDemo2.vue';
+import InputDemo3 from '../../demo/DemoInput/InputDemo3.vue';
 
 import CodePer from '../CodePer.vue';
 import Markdown from '../Markdown.vue';

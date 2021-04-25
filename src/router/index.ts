@@ -2,8 +2,9 @@ import {createRouter, createWebHashHistory} from 'vue-router';
 import Home from '../views/Home.vue';
 import Doc from '../views/Doc.vue';
 import NoMatch from '../components/NoMatch.vue';
-import SwitchDoc from '../components/DocUi/SwitchDoc.vue';
 import ButtonDoc from '../components/DocUi/ButtonDoc.vue';
+import IconDoc from '../components/DocUi/IconDoc.vue';
+import SwitchDoc from '../components/DocUi/SwitchDoc.vue';
 import DialogDoc from '../components/DocUi/DialogDoc.vue';
 import TabsDoc from '../components/DocUi/TabsDoc.vue';
 import InputDoc from '../components/DocUi/InputDoc.vue';
@@ -11,6 +12,8 @@ import RadioDoc from '../components/DocUi/RadioDoc.vue';
 
 import Markdown from '../components/Markdown.vue';
 import intro from '../markdown/intro.md'
+import install from '../markdown/install.md'
+import get_started from '../markdown/get-started.md'
 import bookkeeping_react from '../markdown/bookkeeping-react.md'
 import bookkeeping_vue from '../markdown/bookkeeping-vue.md'
 import naruto from '../markdown/naruto.md'
@@ -43,6 +46,8 @@ const router = createRouter({
       children: [
         {path: '', redirect: '/doc/intro'},
         {path: 'intro', component: md(intro)},
+        {path: 'install', component: md(install)},
+        {path: 'get-started', component: md(get_started)},
         {path: 'blog', component: md(blog)},
         {path: 'bookkeeping-vue', component: md(bookkeeping_vue)},
         {path: 'bookkeeping-react', component: md(bookkeeping_react)},
@@ -50,8 +55,9 @@ const router = createRouter({
         {path: 'virus-map', component: md(virus_map)},
         {path: 'more-project', component: md(more_project)},
         {path: 'unfinished', component: md(unfinished)},
-        {path: 'switch', component: SwitchDoc},
         {path: 'button', component: ButtonDoc},
+        {path: 'icon', component: IconDoc},
+        {path: 'switch', component: SwitchDoc},
         {path: 'dialog', component: DialogDoc},
         {path: 'tabs', component: TabsDoc},
         {path: 'input', component: InputDoc},

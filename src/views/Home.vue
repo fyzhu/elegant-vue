@@ -3,10 +3,10 @@
     <TopNav/>
     <div>
       <section class="banner">
-        <h1>清栀UI 官网</h1>
-        <h2>简约而又不失创造力</h2>
+        <h1>Elegant</h1>
+        <h2>一套为开发者、设计师和产品经理准备的基于 Vue 3.0 的桌面端组件库</h2>
         <div class="actions">
-          <a target="_blank" href="https://github.com/wwwpppfffzzz">GitHub</a>
+          <a target="_blank" href="https://github.com/fyzhu/elegant-vue">GitHub</a>
           <router-link to="/doc">开始</router-link>
         </div>
       </section>
@@ -79,8 +79,7 @@ $textColor: #05538c;
     }
 
     h2 {
-      text-align: right;
-      padding-right: 100px;
+      text-align: center;
       margin-top: 12px;
       font-size: 20px;
       line-height: 26px;

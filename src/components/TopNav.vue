@@ -1,14 +1,15 @@
 <template>
   <section class="top_nav">
     <router-link to="/" class="logo">
-      <svg class="icon">
+      <img src="../assets/logo.png" alt="" srcset="">
+      <!-- <svg class="icon">
         <use xlink:href="#icon-lanmei"></use>
-      </svg>
+      </svg> -->
     </router-link>
     <ul class="menu">
       <li><router-link to="/doc">文档</router-link></li>
-      <li><a href="https://wwwpppfffzzz.github.io/" target="_blank" >博客</a></li>
-      <li><a href="https://github.com/wwwpppfffzzz" target="_blank" >GitHub</a></li>
+      <li><a href="https://www.zhuyunfeng.com/" target="_blank" >博客</a></li>
+      <li><a href="https://github.com/fyzhu/elegant-vue" target="_blank" >GitHub</a></li>
     </ul>
     <div v-if="visibleMenuButton" class="toggleAside" @click="toggleAside">
       <svg class="icon">
@@ -63,8 +64,8 @@ $textColor: #05538c;
     cursor: pointer;
     max-width: 6em;
     margin-right: auto;
-
-    svg {
+    
+    img {
       width: 38px;
       height: 38px;
     }

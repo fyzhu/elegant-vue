@@ -1,11 +1,11 @@
 <template>
-  <doc-title>Switch 开关示例</doc-title>
-  <CodePer :component="SwitchDemo"/>
+  <doc-title>Icon 图标示例</doc-title>
+  <CodePer :component="IconDemo"/>
   <Attr :columns="columns" :data="data"></Attr>
 </template>
 
 <script lang="ts">
-import SwitchDemo from '../../demo/DemoSwitch/SwitchDemo.vue';
+import IconDemo from '../../demo/Icon.vue';
 import CodePer from '../CodePer.vue';
 import Markdown from '../Markdown.vue';
 import Attr from '../Attr.vue';
@@ -26,7 +26,7 @@ export default {
         default: 'false',
       }
     ]);
-    return {SwitchDemo, data, columns};
+    return {IconDemo, data, columns};
   }
 };
 </script>
