@@ -21,7 +21,7 @@ export default {
       {
         params: 'icon',
         desc: '图标',
-        type: 'string/array',
+        type: 'string / array',
         select: '',
         default: '',
       }
