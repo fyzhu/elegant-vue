@@ -9,14 +9,12 @@
 <script lang="ts">
 
 import Icon from '../lib/Icon/Icon.vue';
-import {ref} from 'vue';
 
 export default {
   name: 'IconDemo',
   components: {Icon},
   setup() {
-    const checked = ref(false);
-    return {checked};
+    
   }
 };
 </script>

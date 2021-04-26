@@ -19,11 +19,11 @@ export default {
   setup() {
     const data = ref([
       {
-        params: 'value',
-        desc: '是否选中',
-        type: 'boolean',
-        select: 'false / true',
-        default: 'false',
+        params: 'icon',
+        desc: '图标',
+        type: 'string/array',
+        select: '',
+        default: '',
       }
     ]);
     return {IconDemo, data, columns};
