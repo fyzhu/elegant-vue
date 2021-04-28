@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <font-awesome-icon :icon="icon" :size="size"/>
-  </div>
+  <font-awesome-icon :icon="icon" :size="size"/>
 </template>
 
 <script lang="ts">
